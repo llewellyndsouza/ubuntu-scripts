@@ -10,6 +10,9 @@ sudo snap refresh
 // fix windows bootloader issue
 sudo update-grub
 
+//git
+sudo apt install git -y
+
 //nvm and node
 
 // curl
@@ -33,7 +36,7 @@ or
 nvm use v14
 
 //zsh
-sudo apt install zsh
+sudo apt install zsh -y
 
 // oh my zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
